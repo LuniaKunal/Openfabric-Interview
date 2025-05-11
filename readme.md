@@ -2,6 +2,7 @@
 
 AI Creative is an end-to-end pipeline for generating 3D models from text prompts, leveraging cutting-edge AI technologies including text-to-image generation and image-to-3D model transformation.
 
+https://www.loom.com/share/a74df385d75e48c294fa9ebd656e0b6a?sid=24a7b54f-ff45-46c6-a477-8f8c840af591
 
 ## Features
 
