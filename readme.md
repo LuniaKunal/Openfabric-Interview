@@ -26,7 +26,7 @@ AI Creative is an end-to-end pipeline for generating 3D models from text prompts
 
 - The LLM used is the `google/gemma-3-1b-it` model, which is a lightweight version of the Llama-3.2 model. It is designed to run on consumer-grade hardware with 8GB of RAM. The model is capable of enhancing text prompts for better image generation results.
 
-- This is a gated model; you would need your huggingface token to access it. You can request access to the model [here](https://huggingface.co/gemma-3-1b-it).
+- This is a gated model; you would need your huggingface token to access it. You can request access to the model [here](https://huggingface.co/google/gemma-3-1b-it).
 
 - The model is downloaded using the `download_model.sh` script, which uses the `huggingface-cli` to authenticate and download the model files. Set your Hugging Face token in the `.env` file before running the script.
 
@@ -35,6 +35,7 @@ AI Creative is an end-to-end pipeline for generating 3D models from text prompts
 ```
     fallback_models = [
         "google/gemma-3-1b-it",
+        # Can add different models
     ]
 ```
 
@@ -108,19 +109,19 @@ This will launch the web interface, accessible at [http://localhost:7860](http:/
    - The 3D model viewer with the created model
    - Download links for both image and 3D model
 
-<img width="1470" alt="Image Generation" src="https://github.com/user-attachments/assets/8c06ef61-9db9-4980-b710-fb603dc3a24d" />
+<img width="1470" alt="Image Generation" src="assets\image-gen.png" />
 
 Here's a screenshot of the application in action, showing the input prompt, generated image, and the expanded prompt. The total time taken for the generation process is also displayed.
 
-<img width="1470" alt="Model Viewer" src="https://github.com/user-attachments/assets/ffb402a7-5229-412c-b648-161c5323077b" />
+<img width="1470" alt="Model Viewer" src="assets\Chair.png" />
 
 _Model Viewer_
 
-<img width="1470" alt="Image Gallery" src="https://github.com/user-attachments/assets/c891a12d-fea6-4237-b743-7820506e10e0" />
+<img width="1470" alt="Image Gallery" src="assets\Chair-3D.png" />
 
 _Image Gallery_
 
-<img width="1470" alt="Model Gallery" src="https://github.com/user-attachments/assets/dccaf466-096e-4e17-b9ae-656e5c08be8b" />
+<img width="1470" alt="Model Gallery" src="assets\amror-3D.png" />
 
 _Model Gallery_
 

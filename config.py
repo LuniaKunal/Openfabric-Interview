@@ -4,7 +4,7 @@ from typing import Dict, Any, Optional
 # Default configurations
 DEFAULT_CONFIG = {
     "llm": {
-        "model_id": "gemma3:4b",
+        "model_id": "gemma3:1b",
         "context_size": 4096,
         "max_tokens": 512,
         "temperature": 0.7,

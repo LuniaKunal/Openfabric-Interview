@@ -366,10 +366,6 @@ def get_llm_instance(model_path: Optional[str] = None) -> LocalLLM:
             # Ordered list of fallback models
             fallback_models = [
                 "google/gemma-3-1b-it",
-                # "google/gemma-2b-it",
-                # "mistralai/Mistral-7B-Instruct-v0.2",
-                # "microsoft/Phi-3-mini-4k-instruct",
-                
             ]
 
             # Try each fallback model

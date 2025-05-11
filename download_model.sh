@@ -5,7 +5,7 @@ MODELS_DIR="$(pwd)/app/llm/models"
 mkdir -p "$MODELS_DIR"
 
 # Default model
-DEFAULT_MODEL="gemma3:4b"
+DEFAULT_MODEL="google/gemma-3-1b-it"
 
 echo "Setting up Hugging Face model in project directory: $MODELS_DIR"
 echo "Note: This script will download the model files directly to your project."
